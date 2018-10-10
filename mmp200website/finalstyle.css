@@ -1,0 +1,172 @@
+.bannerbackground{
+	height:150px;
+	width:100%;
+	background-image:url("images/nativeamerican.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color: #cccccc;
+	border: solid 5px #e01111;
+	padding-top:75px;
+	font-size:75;
+	font-family: Courier, monospace;
+	text-align:center;
+	margin-bottom:24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+body{
+	margin:50px 75px 50px 75px;
+	background-color: #7c785d;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#ffffff;
+}
+
+.nav-container{ 	
+width:100%; 
+background-color: #77430f;
+box-shadow: 2px 2px 20px #99652d;  
+position:fixed; 
+left:0;  
+top:0;   
+} 
+
+.nav-container ul{
+width:90%;
+margin: auto;
+padding:0;
+list-style-type: none; 
+font-size:15px;  
+font-family:"Gill Sans", Helvetica, Arial, sans-serif;
+}  
+
+.nav-container li{
+float: left; 
+}  
+
+
+.nav-container a{ 
+display: block; 
+box-sizing: border-box; 
+width: 170px; 
+padding: 10px;
+text-decoration: none;
+text-align: center; 
+background-color: #593610; 
+color:#EDF4E6;
+} 
+
+.nav-container a:hover{ 
+background-color: #a86f30;
+}
+.mydiv{
+	box-sizing:border-box;
+	border: solid 15px #cccccc;
+	padding: 0;
+	float:right;
+	margin: 0 0 12px 50px;
+	}
+
+
+audio{
+ width:100%;
+}
+
+
+
+img{
+	border: solid 5px #e01111;
+	padding: 10px;
+	margin: 0 0 12px 50px;
+
+}
+
+h1{
+	font-family:"Courier New", Courier, monospace;
+	font-size: 48px; 
+	color: #000000;
+	background-color: #805b82;
+	padding: 0 5px 5px 5px;
+	width: 450px;
+}
+.h1width{
+	width:700px;
+}
+
+
+
+
+
+
+
+h2{
+	font-family:"Courier New", Courier, monospace;
+	font-size: 30px; 
+	color: #000000;
+	background-color: #805b82;
+	padding: 0 5px 5px 5px;
+}
+.h1width{
+	width:700px;
+}
+
+.h1width2{
+	width:500px;
+}
+
+.h1width3{
+	width:950px;
+}
+
+.left-responsive{
+    max-width:100%;
+    height: auto;
+	float:left;
+	margin: 0 40px 40px 0;
+}
+.right-responsive{
+    max-width:100%;
+    height: auto;
+	float:right;
+	margin: 0 0 40px 40px;
+}
+.center-responsive{ 
+	display:block;
+	max-width:100%; 
+	max-height: 100%;
+	margin:0 auto;
+	}
+
+p{
+	text-align:justify;
+	line-height:24px;
+}
+
+a{
+	color:#ffffff;
+	padding:5px;
+	margin:0 15px 0 0 ;
+	font-size: 24px;
+	font-weight: 600;
+	text-decoration: none;
+}
+a:link{
+	color:#e01111;
+}
+a:visited{
+	color:#cccccc;
+}
+a:hover{
+	color:red;
+}
+a:active{
+	color:	#F0E68C;
+}

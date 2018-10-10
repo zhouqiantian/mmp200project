@@ -1,0 +1,89 @@
+* {
+    margin:0;
+}
+html{
+    font-size:100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Niramit', sans-serif;
+    font-size:1em;
+}
+#wrapper{
+    max-width:1200px;/* if viewport is smaller than 1200px the viewport will be less of viewport's */
+    margin-left:auto;
+    margin-right:auto;
+}
+header{
+    background-color :#007ac1;
+    height :170px;
+ 
+    padding-top:30px;
+}
+header{
+    color:#000000;
+    text-align:center;
+}
+h1{
+    font-weight:300;
+    font-size:4em;
+}
+h2,h3{
+    font-weight:400;
+    font-size:1.5em;
+}
+    
+h3{
+    background-color:#67daff;
+    height:34px;
+    border-bottom:solid 8px #ffc1e3;
+    padding-left:16px;
+    padding-top:30px;
+    margin-bottom:24px;
+}
+
+#content{
+    display:flex;
+    flex-direction:column;
+}
+.content-item{
+    padding-left:16px;
+    padding-right:16px;
+    margin-bottom:32px;
+}
+#work img{
+    width:100%;
+}
+
+/* web version */
+
+@media(min-width:768px){
+  
+h1{
+    font-size:6em;
+}
+
+#content{
+    flex-direction:row;
+}
+    #work{
+        width:70%;
+    }
+    #about{
+        width:15%;
+    }
+    #skills{
+        width:15%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
